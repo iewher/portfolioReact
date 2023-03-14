@@ -5,6 +5,9 @@ import jsFon from '../Assets/js.jpg'
 import htmlFon from '../Assets/html.jpg'
 import cssFon from '../Assets/css.jpg'
 import reactFon from '../Assets/react.jpg'
+import me1 from '../Assets/me1.jpg'
+import me2 from '../Assets/me2.jpg'
+import me3 from '../Assets/me3.jpg'
 
 export default class About extends Component {
     render() {
@@ -30,7 +33,6 @@ export default class About extends Component {
                         </Col>
                         <Col sm={9}>
                             <Tab.Content className="mt-3">
-                                
                                 <Tab.Pane eventKey='first' className="text-center">
                                     <h1>Мой github</h1>
                                     <img src={gitFon}  
@@ -41,21 +43,31 @@ export default class About extends Component {
                                 </Tab.Pane>
                                 <Tab.Pane eventKey='second' className="text-center">
                                     <h1>Я использую такие языки как:</h1>
-                                    <h1>1.JavaScript</h1>
+                                    <h2 className="mt-3">1.JavaScript</h2>
                                     <img src={jsFon}
                                     height={750}
                                     className='d-block w-100 h-100'/>
-                                    <h1 className="mt-3">2.HTML</h1>
+                                    <h2 className="mt-3">2.HTML</h2>
                                     <img src={htmlFon} 
                                     height={750}
                                     className='d-block w-100 h-100'/>
-                                    <h1 className="mt-3">3.CSS</h1>
+                                    <h2 className="mt-3">3.CSS</h2>
                                     <img src={cssFon} 
                                     height={750}
                                     className='d-block w-100 h-100'/>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey='third' className="text-center">
-                                    <img src="https://s3-alpha.figma.com/hub/file/551983830/e21bd90f-1aa3-4e56-ac8a-30a0a5b09770-cover.png" 
+                                    <h1>Обладаю качествами:</h1>
+                                    <h2 className="mt-3">1.Обучаемый</h2>
+                                    <img src={me1}
+                                    height={750}
+                                    className='d-block w-100'/>
+                                    <h2 className="mt-3">2.Самостоятельный</h2>
+                                    <img src={me2}
+                                    height={750}
+                                    className='d-block w-100'/>
+                                    <h2 className="mt-3">3.Коммуникабельный</h2>
+                                    <img src={me3}
                                     height={750}
                                     className='d-block w-100'/>
                                 </Tab.Pane>
