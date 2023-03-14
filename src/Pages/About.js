@@ -37,7 +37,7 @@ export default class About extends Component {
                                     <h1>Мой github</h1>
                                     <img src={gitFon}  
                                     height={750}
-                                    className='d-block w-100'/>
+                                    className='d-block w-100 h-100'/>
                                     <p>На моем github аккаунте вы сможете найти мои работы</p>
                                     <p><a href="https://github.com/iewher">Ссылка</a></p>
                                 </Tab.Pane>
@@ -61,22 +61,22 @@ export default class About extends Component {
                                     <h2 className="mt-3">1.Обучаемый</h2>
                                     <img src={me1}
                                     height={750}
-                                    className='d-block w-100'/>
+                                    className='d-block w-100 h-100'/>
                                     <h2 className="mt-3">2.Самостоятельный</h2>
                                     <img src={me2}
                                     height={750}
-                                    className='d-block w-100'/>
+                                    className='d-block w-100 h-100'/>
                                     <h2 className="mt-3">3.Коммуникабельный</h2>
                                     <img src={me3}
                                     height={750}
-                                    className='d-block w-100'/>
+                                    className='d-block w-100 h-100'/>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey='fourth' className="text-center">
                                     <h1>Я использую такие фреймворки как:</h1>
                                     <h1 className="mt-3">React</h1>
                                     <img src={reactFon}
                                     height={750}
-                                    className='d-block w-100'/>
+                                    className='d-block w-100 h-100'/>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Col>

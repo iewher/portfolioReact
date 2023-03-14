@@ -16,7 +16,7 @@ export default class Contacts extends Component {
                 <p className="mt-3"><a href="https://t.me/iewher">Ссылка</a></p>
                 <h2 className="mt-3">Email</h2>
                 <img  src={emailIcon} className="mt-3" 
-                min-width={300}
+                width={300}
                 height={300}
                 />
                 <p className="mt-3">goshagang@mail.ru</p>
